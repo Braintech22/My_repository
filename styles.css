@@ -1,4 +1,31 @@
-h3 {
-    color: blueviolet;
-    background-color: brown;
+.navbar_wrapper {
+    height: 50px;
+    background-color: white);
+}
+
+.top_logo {
+    height: 10;
+    background-color: white;
+}
+
+.emptyspacebar {
+    height: 40px;
+    background-color: rgb(1, 1, 27);
+}
+
+.menu_items {
+    text-align: end;
+}
+
+.social_media_handle {
+    height: 1;
+    text-align: end;
+}
+
+.page_pics2 {
+    text-align: right;
+}
+
+.page_pics {
+    text-align: end;
 }
