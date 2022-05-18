@@ -1,11 +1,12 @@
-.navbar_wrapper {
-    height: 50px;
-    background-color: white);
+body {
+    margin: 0px;
 }
 
-.top_logo {
-    height: 10;
+.navbar_wrapper {
+    height: 50px;
     background-color: white;
+    display: flex;
+    justify-content: left;
 }
 
 .emptyspacebar {
@@ -15,17 +16,27 @@
 
 .menu_items {
     text-align: end;
+    padding: 10px 10px;
 }
 
 .social_media_handle {
     height: 1;
     text-align: end;
+    display: flex;
+    flex-direction: row-reverse;
 }
 
 .page_pics2 {
-    text-align: right;
+    text-align: start;
 }
 
 .page_pics {
     text-align: end;
+}
+
+.page_name {
+    display: flex;
+    justify-content: left;
+    font-style: italic;
+    height: 10;
 }
