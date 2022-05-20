@@ -1,0 +1,16 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.body {
+    background-image: url(assets\office1.jpg);
+    background-size: cover;
+}
+
+
+/* .heading_container {
+    background: white;
+    text-align: none;
+    align-content: center;
+} */

@@ -14,10 +14,11 @@ body {
     background-color: rgb(1, 1, 27);
 }
 
-.menu_items {
-    text-align: end;
-    padding: 10px 10px;
+.links_wrappers {
+    justify-content: flex-end
 }
+
+.menu_items {}
 
 .social_media_handle {
     height: 1;
