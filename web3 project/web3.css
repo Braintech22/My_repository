@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgb(14, 0, 0);
+    height: 150px;
+    width: 100%;
+}
+
+body {
+    background: scroll;
+    background-image: url(food1.1.png);
+    height: 400px;
+    width: 100%;
+}
+
+h1 {
+    color: white;
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+span {
+    color: rgb(232, 92, 5);
+}
+
+a {
+    text-decoration: none;
+    margin: 10px;
+    padding: 10px;
+    color: white;
+    font-size: large;
+    font-weight: bold;
+}
+
+.btnBar {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    height: 40px;
+    width: 100px;
+    border-radius: 20px;
+    background-color: rgb(242, 97, 7);
+}
+
+.Bar1 {
+    background: scroll;
+    height: 400px;
+    width: 100%;
+    background-color: white;
+    margin-top: 100px;
+}
+
+.Bar2 {
+    background: scroll;
+    height: 400px;
+    width: 100%;
+    background-color: white;
+    margin-top: 100px;
+}
+
+.Bar3 {
+    background: scroll;
+    height: 400px;
+    width: 100%;
+    background-color: greenyellow;
+    margin-top: 100px;
+}
+
+.Bar1>img {
+    width: 60%;
+    height: 400px;
+}
