@@ -1,0 +1,279 @@
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    /* first line */
+    /* **********************************************************
+********************************************************* */
+    
+    .section1 {
+        background-color: rgb(0, 9, 15);
+        height: 50%;
+        width: 100%;
+    }
+    
+    .logocontainer {
+        padding: 20px;
+        padding-left: 50px;
+        display: flex;
+        justify-content: space-between;
+        /* padding-top: 20px;
+    padding-bottom: 30px;
+    height: 10%;
+    width: 100%;
+    background-color: rgb(0, 9, 15);
+    justify-content: space-between; */
+    }
+    
+    .logocontainer>h2 {
+        padding-left: 50px;
+        color: white;
+        font-size: 30px;
+        /* margin: 20px; */
+    }
+    
+    .logocontainer>h2>span {
+        color: chocolate;
+    }
+    /* .logocontainer>.links {
+    flex-flow: row;
+} */
+    
+    .logocontainer>.links {
+        padding-right: 200px;
+        display: flex;
+        gap: 30px;
+        box-sizing: border-box;
+        justify-content: right
+    }
+    
+    a {
+        text-decoration: none;
+        color: white;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: bold;
+    }
+    
+    button {
+        height: 30px;
+        width: 100px;
+        border-radius: 10px;
+    }
+    
+    .desccontainer {
+        display: flex;
+        padding-inline-start: 150px;
+        padding-bottom: 30px;
+        justify-content: space-between;
+    }
+    
+    .textdesc {
+        width: 25%;
+    }
+    
+    h1 {
+        color: white;
+        font-size: 30px;
+        padding-top: 30px;
+    }
+    
+    h3 {
+        color: darkgrey;
+        font-size: small;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    
+    .signup {
+        background-color: orangered;
+        border: 0px;
+    }
+    
+    .picture {
+        width: 40%;
+        background-image: url(ecom1.jpg);
+        background-size: cover;
+        border-radius: 10px;
+        margin-right: 200px;
+    }
+    
+    h5 {
+        color: white;
+        font-size: 20px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-style: italic;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    
+    .h2 {
+        color: brown;
+        font-size: 50px;
+        font-style: normal;
+    }
+    /* **********************************************************
+********************************************************* */
+    /* section 2 */
+    
+    .section2 {
+        background-color: white;
+        height: 600px;
+        width: 100%;
+    }
+    
+    .heading {
+        color: white;
+        text-align: center;
+        padding: 50px;
+        font-size: 20px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: 10px;
+    }
+    
+    .windowcontainer {
+        display: flex;
+        justify-content: center;
+        /* padding-top: 5px; */
+        gap: 40px;
+    }
+    
+    .box1 {
+        height: 350px;
+        width: 350px;
+        background-image: url(ecom3.jpg);
+        background-size: cover;
+        /* border: 2px;
+    border-style: solid; */
+        /* color: brown; */
+        /* background-repeat: no-repeat; */
+    }
+    
+    .box2 {
+        height: 350px;
+        width: 350px;
+        background-image: url(ecom4.jpg);
+        background-size: cover;
+        /* border: 2px;
+    border-style: solid;
+    color: brown; */
+        /* background-repeat: no-repeat; */
+    }
+    
+    .box3 {
+        height: 350px;
+        width: 350px;
+        background-image: url(ecom5.jpg);
+        background-size: cover;
+        /* border: 2px;
+    border-style: solid;
+    color: brown; */
+        /* background-repeat: no-repeat; */
+    }
+    
+    .box4 {
+        height: 350px;
+        width: 350px;
+        background-image: url(ecom6.jpg);
+        background-size: cover;
+        /* border: 2px;
+    border-style: solid;
+    color: brown; */
+        /* background-repeat: no-repeat; */
+    }
+    
+    .box5 {
+        height: 350px;
+        width: 350px;
+        background-image: url(ecom7.jpg);
+        background-size: cover;
+        /* border: 2px;
+    border-style: solid;
+    color: brown; */
+        /* background-repeat: no-repeat; */
+    }
+    
+    .box6 {
+        height: 350px;
+        width: 350px;
+        background-image: url(ecom8.jpg);
+        background-size: cover;
+        /* border: 2px;
+    border-style: solid;
+    color: brown; */
+        /* background-repeat: no-repeat; */
+    }
+    
+    .box7 {
+        height: 350px;
+        width: 350px;
+        background-image: url(ecom9.jpg);
+        background-size: cover;
+        /* border: 2px;
+    border-style: solid;
+    color: brown; */
+        /* background-repeat: no-repeat; */
+    }
+    
+    .box8 {
+        height: 350px;
+        width: 350px;
+        background-image: url(ecom2.jpg);
+        background-size: cover;
+        /* border: 2px;
+    border-style: solid;
+    color: brown; */
+        /* background-repeat: no-repeat; */
+    }
+    
+    .desc1 {
+        padding-top: 350px;
+    }
+    
+    h3 {
+        color: black;
+        font-size: larger;
+    }
+    
+    h2 {
+        color: brown;
+        font-style: italic;
+        font-size: large;
+    }
+    
+    .buynow {
+        color: white;
+        background-color: crimson;
+    }
+    /* **********************************************************
+********************************************************* */
+    
+    .section3 {
+        background-color: brown;
+        height: 200px;
+        width: 100%;
+    }
+    
+    .loginBtn {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .loginBtn {
+        padding-top: 30px;
+    }
+    
+    .signupBtn {
+        padding-top: 30px;
+    }
+    
+    .
+    /* **********************************************************
+********************************************************* */
+    /* .section4 {
+    background-color: black;
+    height: 200px;
+    width: 100%;
+    .buynow {
+        color: white;
+        background-color: crimson;
+    } */
